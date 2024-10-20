@@ -1,0 +1,29 @@
+{
+  "name": "javercel/regexp",
+  "description": "The RegExp object is used for matching text with a pattern.",
+  "type": "library",
+  "keywords": ["regexp", "regex", "phpregex"],
+  "license": "MIT",
+  "autoload": {
+    "files": [
+      "src/function/RegExp.php"
+    ],
+    "psr-4": {
+      "RegExp\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Coding Modassir",
+      "email": "codingmodassir@gmail.com",
+      "homepage": "https://github.com/lazervel"
+    },
+    {
+      "name": "Shahzada Modassir",
+      "email": "codingmodassir@gmail.com",
+      "homepage": "https://github.com/shahzadamodassir"
+    }
+  ],
+  "minimum-stability": "alpha",
+  "require": {}
+}
